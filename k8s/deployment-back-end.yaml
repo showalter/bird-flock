@@ -15,7 +15,7 @@ spec:
         app: birds-app-back-end-showalter
     spec:
       containers:
-        - image: 'ghcr.io/showalter/birds-app-back-end:447a697a83d7b66588c46b07181086a2bfd0ff79'
+        - image: 'ghcr.io/showalter/birds-app-back-end:1b859a5f50b3856df5ff76df74e22206ee987670'
           name: birds-back-front-end
           ports:
             - containerPort: 8080
