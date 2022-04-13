@@ -26,6 +26,9 @@ function Bird() {
                 <Card.Title>
                     {data.name}
                 </Card.Title>
+                <Card.Text>
+                  {data.description}
+                </Card.Text>
             </Card.Body>
           
       </Card>
